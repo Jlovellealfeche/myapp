@@ -5,7 +5,8 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <Header firstName="Bob" />
+      <Header firstName="Any name other than Bob" />
+      <Header firstName="Jack" />
     </div>
   );
 }

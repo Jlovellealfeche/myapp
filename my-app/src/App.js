@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Promo from './components/Promo';
 import Apples from './components/Apples';
+import Pears from './components/Pears';
 import Bag from './components/Bag';
 import Intro1 from './components/Intro1';
 import Intro2 from './components/Intro2';
@@ -17,8 +18,8 @@ function App() {
       <Nav/>
       <Header firstName="Jack" />
       <Promo />
-      <Apples />
-      <Bag/>
+      <Bag children={<Apples color="Yellow" number="5"/>}/>
+      <Bag children={<Pears friend="Peter"/>}/>
       <Intro1 />
       <Intro2 />
       <Intro3 />

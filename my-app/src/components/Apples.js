@@ -11,11 +11,7 @@ function Apples(props)  {
     );
 }
 
-function Pears(props) {
-    return (
-        <h2>I dont like, pears but my friend, {props.friend}, does</h2>
-    );
-};
+
 
 
 
